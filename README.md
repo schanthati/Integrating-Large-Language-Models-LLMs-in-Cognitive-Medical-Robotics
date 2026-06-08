@@ -62,6 +62,62 @@ The presentation materials also include workflow architecture, system architectu
 * Edge-cloud hybrid inference
 * Smart hospital automation
 
+### Large Language Models in Medical Robotics
+
+The presentation examines the integration of Large Language Models (LLMs) within cognitive medical robotics systems to enable intelligent interaction between patients, healthcare professionals, and robotic platforms. The proposed architecture incorporates advanced language models capable of understanding natural language requests, generating contextual responses, supporting clinical workflow activities, and facilitating communication within smart hospital environments. The framework discusses the application of LLM technologies to improve operational efficiency, patient engagement, and healthcare service delivery.
+
+### Cognitive Medical Robot Workflow Design
+
+The presentation introduces a workflow architecture describing how cognitive medical robots process user interactions from initial request capture through final response delivery. The workflow includes voice input acquisition, speech-to-text conversion, intent analysis, language model inference, healthcare system integration, response generation, and robotic execution. The architecture is designed to support healthcare environments requiring responsive, intelligent, and context-aware interactions between patients, caregivers, and automated systems.
+
+### Speech-to-Text Ingestion
+
+The proposed architecture incorporates automated speech recognition mechanisms that transform spoken interactions into structured digital inputs suitable for processing by Large Language Models. Speech-to-text ingestion functions as the primary interface between human users and cognitive medical robots, enabling hands-free communication within healthcare settings. This capability supports patient assistance, healthcare staff interactions, and workflow automation activities while improving accessibility and operational efficiency.
+
+### LLM-Based Intent Recognition
+
+The presentation demonstrates the use of Large Language Models to interpret user requests, identify operational intent, and generate contextually relevant actions. Intent recognition serves as a critical component of the cognitive medical robotics architecture by enabling systems to distinguish between patient inquiries, medication requests, healthcare workflow activities, and operational commands. The approach supports intelligent decision-making while reducing dependence on rigid rule-based interaction models.
+
+### Electronic Health Record (EHR) Integration
+
+The architecture incorporates secure integration mechanisms connecting cognitive medical robotics platforms with Electronic Health Record (EHR) systems. Through controlled interoperability layers, healthcare information can be retrieved, processed, and utilized to support patient-specific interactions, workflow coordination, and healthcare service delivery. The integration framework is designed to maintain data integrity, privacy controls, and compliance with healthcare information management requirements.
+
+### Structured Response Generation
+
+Following intent recognition and healthcare system integration, the architecture generates structured and context-aware responses suitable for delivery through robotic interfaces. Response generation mechanisms combine language model outputs, healthcare data sources, and workflow rules to produce accurate, understandable, and operationally relevant communications. This capability supports patient engagement, clinical assistance, and healthcare information dissemination activities.
+
+### Robot Interface Delivery
+
+The presentation describes robotic delivery mechanisms responsible for communicating generated responses to patients, healthcare professionals, and hospital staff. Robot interface components serve as the final stage of the workflow architecture, transforming processed information into interactive responses delivered through speech, displays, or physical robotic interactions. This functionality supports intelligent assistance and improves human-machine collaboration within healthcare environments.
+
+### HL7/FHIR Interoperability
+
+The architecture incorporates healthcare interoperability standards including HL7 and Fast Healthcare Interoperability Resources (FHIR) to facilitate secure communication between cognitive medical robotics systems and healthcare information platforms. These interoperability layers enable standardized data exchange, support integration with existing hospital systems, and promote compatibility across diverse healthcare technology environments.
+
+### Privacy and Data Security
+
+The presentation addresses privacy-preserving mechanisms and security controls necessary for deploying Large Language Models within healthcare environments. The architecture incorporates secure data handling procedures, controlled information access, protected communication channels, and healthcare compliance considerations intended to safeguard sensitive patient information. These controls support responsible deployment of artificial intelligence technologies within regulated medical environments.
+
+### Hallucination Reduction
+
+The presentation discusses challenges associated with inaccurate or fabricated responses generated by Large Language Models and outlines strategies for reducing hallucinations within healthcare applications. Approaches include domain-specific model tuning, vocabulary restriction, controlled response generation, validation frameworks, and integration of healthcare knowledge sources. These measures are intended to improve reliability and trustworthiness in clinical and operational environments.
+
+### Edge-Cloud Hybrid Inference
+
+The architecture utilizes a hybrid deployment strategy combining cloud-based computing resources with edge processing capabilities. This approach enables efficient utilization of computational resources while supporting low-latency healthcare interactions, scalability, operational resilience, and real-time response requirements. Edge-cloud inference models help balance performance, privacy, and infrastructure considerations within medical robotics deployments.
+
+### Smart Hospital Automation
+
+The presentation demonstrates how cognitive medical robotics systems can support broader smart hospital initiatives through automation of routine healthcare activities and workflow coordination processes. Representative applications include medication reminders, patient triage, real-time staff communication, personalized patient interaction, and healthcare service assistance. The proposed framework illustrates how artificial intelligence and robotics technologies can contribute to improved patient experiences, reduced staff workload, enhanced operational efficiency, and stronger compliance with healthcare standards.
+
+<img width="433" height="275" alt="AIR Image 1" src="https://github.com/user-attachments/assets/ebd0565e-0782-4d74-9246-c80f1c3f44b3" />
+
+
+<img width="459" height="268" alt="Air Image 2" src="https://github.com/user-attachments/assets/6f57aa56-b766-46f4-9a5a-4aacb17b97f2" />
+
+<img width="451" height="335" alt="AIR Image 3" src="https://github.com/user-attachments/assets/df527340-e08f-4af5-828f-ecc0cb428a47" />
+
+
 ## Referenced Publication
 
 The presentation materials reflect technical frameworks corresponding to applied use-case models documented in the authored book:
